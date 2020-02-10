@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
@@ -8,14 +8,14 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="nVy-4M-mgp">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_Bongobondu" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6bw-Xi-5KR">
+                <viewController id="xsY-PY-Nqa" customClass="ViewController" customModule="iOS_Bongobondu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TCo-XG-3i7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmv-G0-VTX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyb-ct-X5n">
                                 <rect key="frame" x="103" y="79" width="208" height="48.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="আত্মজীবনী">
@@ -27,19 +27,19 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="F3N-fC-503">
-                                <rect key="frame" x="16" y="193" width="384.00000000000011" height="207"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="a6O-jy-BNq">
+                                <rect key="frame" x="16" y="193" width="384" height="207"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ভুমিকা :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zqu-f3-SKu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ভুমিকা :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXG-lF-udG">
                                 <rect key="frame" x="16" y="459" width="102" height="43"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="kkY-0r-qIr"/>
+                                    <constraint firstAttribute="height" constant="43" id="ex4-e0-t0Y"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoe-kz-P2c">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26Q-sO-kIR">
                                 <rect key="frame" x="17" y="516" width="383" height="339"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <string key="text">১৯২০, ১৭ মার্চ, গোপালগঞ্জ জেলার টুঙ্গীপাড়া গ্রামে জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান জন্মগ্রহণ করেন।
@@ -59,25 +59,25 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Zqu-f3-SKu" firstAttribute="leading" secondItem="mDT-dm-fwS" secondAttribute="leading" constant="16" id="2ME-mk-RnL"/>
-                            <constraint firstItem="mDT-dm-fwS" firstAttribute="trailing" secondItem="hoe-kz-P2c" secondAttribute="trailing" constant="14" id="7sl-NE-X7A"/>
-                            <constraint firstItem="hoe-kz-P2c" firstAttribute="leading" secondItem="mDT-dm-fwS" secondAttribute="leading" constant="17" id="DCi-c1-Gp7"/>
-                            <constraint firstItem="mDT-dm-fwS" firstAttribute="trailing" secondItem="Zqu-f3-SKu" secondAttribute="trailing" constant="296" id="Dn7-ag-5xD"/>
-                            <constraint firstItem="mDT-dm-fwS" firstAttribute="bottom" secondItem="hoe-kz-P2c" secondAttribute="bottom" constant="7" id="IyJ-NM-3QK"/>
-                            <constraint firstItem="hoe-kz-P2c" firstAttribute="top" secondItem="Zqu-f3-SKu" secondAttribute="bottom" constant="14" id="Q3c-No-XgK"/>
-                            <constraint firstItem="mDT-dm-fwS" firstAttribute="trailing" secondItem="F3N-fC-503" secondAttribute="trailing" constant="14" id="VPB-e4-Elu"/>
-                            <constraint firstItem="cmv-G0-VTX" firstAttribute="top" secondItem="mDT-dm-fwS" secondAttribute="top" constant="35" id="W1j-fS-htO"/>
-                            <constraint firstItem="F3N-fC-503" firstAttribute="leading" secondItem="mDT-dm-fwS" secondAttribute="leading" constant="16" id="cD0-SW-HYW"/>
-                            <constraint firstItem="mDT-dm-fwS" firstAttribute="trailing" secondItem="cmv-G0-VTX" secondAttribute="trailing" constant="103" id="dsX-dN-Bqa"/>
-                            <constraint firstAttribute="bottom" secondItem="Zqu-f3-SKu" secondAttribute="bottom" constant="394" id="eEE-IW-7a6"/>
-                            <constraint firstItem="F3N-fC-503" firstAttribute="top" secondItem="cmv-G0-VTX" secondAttribute="bottom" constant="65.5" id="gQ3-mu-CaG"/>
-                            <constraint firstItem="cmv-G0-VTX" firstAttribute="leading" secondItem="mDT-dm-fwS" secondAttribute="leading" constant="103" id="jvX-PG-q6O"/>
-                            <constraint firstItem="Zqu-f3-SKu" firstAttribute="top" secondItem="F3N-fC-503" secondAttribute="bottom" constant="59" id="tIP-PQ-xP7"/>
+                            <constraint firstItem="a6O-jy-BNq" firstAttribute="leading" secondItem="iPR-yt-4gy" secondAttribute="leading" constant="16" id="0Bd-9X-nfT"/>
+                            <constraint firstItem="iPR-yt-4gy" firstAttribute="trailing" secondItem="wXG-lF-udG" secondAttribute="trailing" constant="296" id="6YK-JQ-3YO"/>
+                            <constraint firstItem="26Q-sO-kIR" firstAttribute="leading" secondItem="iPR-yt-4gy" secondAttribute="leading" constant="17" id="8Pp-XY-qYG"/>
+                            <constraint firstItem="wXG-lF-udG" firstAttribute="leading" secondItem="iPR-yt-4gy" secondAttribute="leading" constant="16" id="CrV-m6-TNt"/>
+                            <constraint firstItem="wXG-lF-udG" firstAttribute="top" secondItem="a6O-jy-BNq" secondAttribute="bottom" constant="59" id="DIf-0e-G3d"/>
+                            <constraint firstAttribute="bottom" secondItem="wXG-lF-udG" secondAttribute="bottom" constant="394" id="JVp-Dw-R5c"/>
+                            <constraint firstItem="a6O-jy-BNq" firstAttribute="top" secondItem="vyb-ct-X5n" secondAttribute="bottom" constant="65.5" id="Pja-Dd-io8"/>
+                            <constraint firstItem="26Q-sO-kIR" firstAttribute="top" secondItem="wXG-lF-udG" secondAttribute="bottom" constant="14" id="Yiv-bL-557"/>
+                            <constraint firstItem="vyb-ct-X5n" firstAttribute="top" secondItem="iPR-yt-4gy" secondAttribute="top" constant="35" id="Zi2-xg-mA4"/>
+                            <constraint firstItem="iPR-yt-4gy" firstAttribute="bottom" secondItem="26Q-sO-kIR" secondAttribute="bottom" constant="7" id="l7X-CN-796"/>
+                            <constraint firstItem="iPR-yt-4gy" firstAttribute="trailing" secondItem="26Q-sO-kIR" secondAttribute="trailing" constant="14" id="nPA-pa-z8v"/>
+                            <constraint firstItem="vyb-ct-X5n" firstAttribute="leading" secondItem="iPR-yt-4gy" secondAttribute="leading" constant="103" id="nYc-xw-ybu"/>
+                            <constraint firstItem="iPR-yt-4gy" firstAttribute="trailing" secondItem="vyb-ct-X5n" secondAttribute="trailing" constant="103" id="sqr-NJ-CDY"/>
+                            <constraint firstItem="iPR-yt-4gy" firstAttribute="trailing" secondItem="a6O-jy-BNq" secondAttribute="trailing" constant="14" id="vUi-Cd-IA1"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="mDT-dm-fwS"/>
+                        <viewLayoutGuide key="safeArea" id="iPR-yt-4gy"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vg9-Sk-RPF" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="132" y="139"/>
         </scene>

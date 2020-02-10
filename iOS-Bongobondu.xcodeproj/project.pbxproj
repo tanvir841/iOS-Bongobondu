@@ -13,6 +13,7 @@
 		0448F3FA23F11E450002CDDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0448F3F823F11E450002CDDF /* Main.storyboard */; };
 		0448F3FC23F11E970002CDDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0448F3FB23F11E970002CDDF /* Assets.xcassets */; };
 		0448F3FF23F11E970002CDDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0448F3FD23F11E970002CDDF /* LaunchScreen.storyboard */; };
+		0F94F22423F14B0200521374 /* tanvir.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F94F22323F14B0200521374 /* tanvir.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0448F3FB23F11E970002CDDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0448F3FE23F11E970002CDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0448F40023F11E970002CDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F94F22323F14B0200521374 /* tanvir.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tanvir.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0448F3FB23F11E970002CDDF /* Assets.xcassets */,
 				0448F3FD23F11E970002CDDF /* LaunchScreen.storyboard */,
 				0448F40023F11E970002CDDF /* Info.plist */,
+				0F94F22323F14B0200521374 /* tanvir.storyboard */,
 			);
 			path = "iOS-Bongobondu";
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F94F22423F14B0200521374 /* tanvir.storyboard in Resources */,
 				0448F3FF23F11E970002CDDF /* LaunchScreen.storyboard in Resources */,
 				0448F3FC23F11E970002CDDF /* Assets.xcassets in Resources */,
 				0448F3FA23F11E450002CDDF /* Main.storyboard in Resources */,
