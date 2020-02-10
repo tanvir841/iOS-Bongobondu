@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="WFF-Dh-gwy">
+            <objects>
+                <viewController id="fSC-7n-Sjs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="exr-gI-fYI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="8SL-jz-vEV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="সাক্ষাতকার" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEw-uU-Hu8">
+                                        <rect key="frame" x="103" y="79" width="208" height="57.5"/>
+                                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="41"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="gettyimages-1" translatesAutoresizingMaskIntoConstraints="NO" id="HN7-vh-WbH">
+                                        <rect key="frame" x="16" y="202" width="384" height="198"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ভুমিকা :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jL-g7-e2o">
+                                        <rect key="frame" x="16" y="459" width="102" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="43" id="tJv-oY-GfT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dT8-US-Zp5">
+                                        <rect key="frame" x="17" y="516" width="383" height="339"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <mutableString key="text">১৯৭২ সালের জানুয়ারি, ঢাকা। ভারত সরকার কর্তৃক প্রকাশিত বাংলাদেশ ডকুমেন্টস-এ বঙ্গবন্ধু শেখ মুজিবুর রহমানের সঙ্গে ব্রিটিশ সাংবাদিক ডেভিড ফ্রস্টের টেলিভিশন সাক্ষাৎকারের অনুলিখন সন্নিবেশিত হয়। পাকিস্তান থেকে মুক্তি পেয়ে বঙ্গবন্ধুর স্বদেশ প্রত্যাবর্তনের পর ঢাকায় এই সাক্ষাৎকার গৃহীত হয়। ১৯৭২ সালের ১৮ জানুয়ারি নিউইয়র্ক টেলিভিশনের ডেভিড ফ্রস্ট প্রোগ্রাম ইন্ বাংলাদেশ শীর্ষক অনুষ্ঠানে সাক্ষাৎকারটি প্রদর্শিত হয়।</mutableString>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" shipmentTrackingNumber="YES"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="5jL-g7-e2o" firstAttribute="leading" secondItem="X0H-er-Jiv" secondAttribute="leading" constant="16" id="0yP-pM-maG"/>
+                                    <constraint firstItem="gEw-uU-Hu8" firstAttribute="leading" secondItem="X0H-er-Jiv" secondAttribute="leading" constant="103" id="HIE-a3-52V"/>
+                                    <constraint firstItem="X0H-er-Jiv" firstAttribute="trailing" secondItem="5jL-g7-e2o" secondAttribute="trailing" constant="296" id="OWE-iO-Yaa"/>
+                                    <constraint firstItem="X0H-er-Jiv" firstAttribute="trailing" secondItem="dT8-US-Zp5" secondAttribute="trailing" constant="14" id="OoL-xD-JuD"/>
+                                    <constraint firstAttribute="bottom" secondItem="5jL-g7-e2o" secondAttribute="bottom" constant="394" id="ROl-rt-cmY"/>
+                                    <constraint firstItem="gEw-uU-Hu8" firstAttribute="top" secondItem="X0H-er-Jiv" secondAttribute="top" constant="35" id="V3t-yL-ac7"/>
+                                    <constraint firstItem="X0H-er-Jiv" firstAttribute="trailing" secondItem="gEw-uU-Hu8" secondAttribute="trailing" constant="103" id="VZp-11-bQy"/>
+                                    <constraint firstItem="X0H-er-Jiv" firstAttribute="bottom" secondItem="dT8-US-Zp5" secondAttribute="bottom" constant="7" id="Vl7-Zh-VTY"/>
+                                    <constraint firstItem="X0H-er-Jiv" firstAttribute="trailing" secondItem="HN7-vh-WbH" secondAttribute="trailing" constant="14" id="ghc-F3-KaV"/>
+                                    <constraint firstItem="dT8-US-Zp5" firstAttribute="leading" secondItem="X0H-er-Jiv" secondAttribute="leading" constant="17" id="hH7-zK-ZoZ"/>
+                                    <constraint firstItem="dT8-US-Zp5" firstAttribute="top" secondItem="5jL-g7-e2o" secondAttribute="bottom" constant="14" id="j6m-3r-OFj"/>
+                                    <constraint firstItem="HN7-vh-WbH" firstAttribute="leading" secondItem="X0H-er-Jiv" secondAttribute="leading" constant="16" id="jnc-jm-62B"/>
+                                    <constraint firstItem="HN7-vh-WbH" firstAttribute="top" secondItem="gEw-uU-Hu8" secondAttribute="bottom" constant="65.5" id="sIT-hB-l7U"/>
+                                    <constraint firstItem="5jL-g7-e2o" firstAttribute="top" secondItem="HN7-vh-WbH" secondAttribute="bottom" constant="59" id="yZw-2f-klR"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="X0H-er-Jiv"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="FgU-k0-SX0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NGS-lD-twO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1719" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bPo-p5-Om5">
+            <objects>
+                <viewController id="I3B-e5-g2E" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m0Q-GW-SsY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="W9h-Bi-Ok9">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hF-Vg-ktC">
+                                        <rect key="frame" x="100" y="79" width="289" height="50"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="হাতের">
+                                                <attributes>
+                                                    <font key="NSFont" size="42" name="KohinoorBangla-Bold"/>
+                                                    <font key="NSOriginalFont" size="42" name="Helvetica-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <font key="NSFont" size="42" name="Helvetica-Bold"/>
+                                                    <font key="NSOriginalFont" size="42" name="Helvetica-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="লেখা">
+                                                <attributes>
+                                                    <font key="NSFont" size="42" name="KohinoorBangla-Bold"/>
+                                                    <font key="NSOriginalFont" size="42" name="Helvetica-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <font key="NSFont" size="42" name="Helvetica-Bold"/>
+                                                    <font key="NSOriginalFont" size="42" name="Helvetica-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="চিঠি">
+                                                <attributes>
+                                                    <font key="NSFont" size="42" name="KohinoorBangla-Bold"/>
+                                                    <font key="NSOriginalFont" size="42" name="Helvetica-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="download-1" translatesAutoresizingMaskIntoConstraints="NO" id="yhI-ci-fXk">
+                                        <rect key="frame" x="16" y="194.5" width="384" height="205.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ভুমিকা :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tiA-aX-CiL">
+                                        <rect key="frame" x="16" y="459" width="102" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="43" id="52J-MJ-N3J"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gHI-Y9-tCe">
+                                        <rect key="frame" x="17" y="516" width="383" height="339"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <mutableString key="text">রাজনীতিতে সমর্পিত বঙ্গবন্ধু শেখ মুজিবুর রহমানের জীবনের বড় সময় কেটেছে জেলখানায়। সেখানে থাকতে তিনি যেমন রাজনৈতিক সহযোদ্ধা, নেতা-কর্মী ও স্বজনদের কাছ থেকে বহু চিঠি পেয়েছেন, তেমনি তিনিও তাঁদের লিখেছেন। 
+
+কারাগারের বাইরে থাকতে রাজনীতির সুবাদেই তিনি বিভিন্ন শ্রেণি ও পেশার মানুষের সঙ্গে মিশেছেন, অনেকে তাঁর সান্নিধ্যে এসেছেন। তাঁদের কারও কারও সঙ্গে তাঁর পত্র যোগাযোগ হতো। কারাগারে থাকতে বেশির ভাগ চিঠি পেতেন দলীয় নেতা-কর্মীদের কাছ থেকে।</mutableString>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" shipmentTrackingNumber="YES"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="gHI-Y9-tCe" firstAttribute="top" secondItem="tiA-aX-CiL" secondAttribute="bottom" constant="14" id="6Xk-M8-W7H"/>
+                                    <constraint firstItem="0Dl-Vs-mJa" firstAttribute="bottom" secondItem="gHI-Y9-tCe" secondAttribute="bottom" constant="7" id="6Ys-rp-13A"/>
+                                    <constraint firstItem="8hF-Vg-ktC" firstAttribute="leading" secondItem="0Dl-Vs-mJa" secondAttribute="leading" constant="100" id="F1e-fI-Qpg"/>
+                                    <constraint firstItem="0Dl-Vs-mJa" firstAttribute="trailing" secondItem="gHI-Y9-tCe" secondAttribute="trailing" constant="14" id="TFa-NL-qXW"/>
+                                    <constraint firstAttribute="bottom" secondItem="tiA-aX-CiL" secondAttribute="bottom" constant="394" id="ael-Xk-8nG"/>
+                                    <constraint firstItem="tiA-aX-CiL" firstAttribute="top" secondItem="yhI-ci-fXk" secondAttribute="bottom" constant="59" id="bPq-Mv-15i"/>
+                                    <constraint firstItem="tiA-aX-CiL" firstAttribute="leading" secondItem="0Dl-Vs-mJa" secondAttribute="leading" constant="16" id="cK2-Zg-aHv"/>
+                                    <constraint firstItem="0Dl-Vs-mJa" firstAttribute="trailing" secondItem="tiA-aX-CiL" secondAttribute="trailing" constant="296" id="kiK-xk-gcx"/>
+                                    <constraint firstItem="0Dl-Vs-mJa" firstAttribute="trailing" secondItem="yhI-ci-fXk" secondAttribute="trailing" constant="14" id="nJ2-js-Rms"/>
+                                    <constraint firstItem="gHI-Y9-tCe" firstAttribute="leading" secondItem="0Dl-Vs-mJa" secondAttribute="leading" constant="17" id="rGt-XA-vBS"/>
+                                    <constraint firstItem="0Dl-Vs-mJa" firstAttribute="trailing" secondItem="8hF-Vg-ktC" secondAttribute="trailing" multiplier="0.8" constant="103" id="raV-nA-mOM"/>
+                                    <constraint firstItem="yhI-ci-fXk" firstAttribute="top" secondItem="8hF-Vg-ktC" secondAttribute="bottom" constant="65.5" id="tQW-Yy-QRi"/>
+                                    <constraint firstItem="8hF-Vg-ktC" firstAttribute="top" secondItem="0Dl-Vs-mJa" secondAttribute="top" constant="35" id="u6a-zV-Itw"/>
+                                    <constraint firstItem="yhI-ci-fXk" firstAttribute="leading" secondItem="0Dl-Vs-mJa" secondAttribute="leading" constant="16" id="zQQ-ZG-Nb5"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="0Dl-Vs-mJa"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="XQA-0W-zZk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mp5-NS-oeI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2371" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="P6c-h4-VRm">
+            <objects>
+                <viewController id="tjM-NZ-UyG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Ch-WL-3pN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="ycs-Ry-aUR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="ni7-4c-pbX">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="বক্তব্য বিশ্লেষণ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUV-lZ-pe6">
+                                                <rect key="frame" x="103" y="79" width="242.5" height="58"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="41"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="gettyimages-1" translatesAutoresizingMaskIntoConstraints="NO" id="2YZ-hw-CCz">
+                                                <rect key="frame" x="16" y="202.5" width="384" height="197.5"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivH-SY-Kcz">
+                                                <rect key="frame" x="16" y="459" width="377.5" height="43"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="43" id="B3y-Bc-3lh"/>
+                                                </constraints>
+                                                <string key="text">বঙ্গবন্ধু শেখ মুজিব: আওয়ামীলীগের
+নাকি গণমানুষের?</string>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v66-Kf-PO9">
+                                                <rect key="frame" x="17" y="516" width="383" height="339"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <string key="text">শেক্সপিয়ার বলেছিলেন, এ জগতে কেউ কেউ জন্মগতভাবে মহান, কেউ মহত্বের লক্ষণ নিয়ে জন্মগ্রহণ করেন, আবার কেউ স্বীয় প্রচেষ্টায় মহানুভবতা অর্জন করেন৷ আমার মতে, এই ৩টি বৈশিষ্ট্যই বঙ্গবন্ধু শেখ মুজিবুর রহমানের ক্ষেত্রে প্রযোজ্য৷</string>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <dataDetectorType key="dataDetectorTypes" shipmentTrackingNumber="YES"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="pVN-vR-dfY" firstAttribute="trailing" secondItem="2YZ-hw-CCz" secondAttribute="trailing" constant="14" id="21p-nw-bns"/>
+                                            <constraint firstItem="pVN-vR-dfY" firstAttribute="bottom" secondItem="v66-Kf-PO9" secondAttribute="bottom" constant="7" id="7GR-eL-VVH"/>
+                                            <constraint firstItem="v66-Kf-PO9" firstAttribute="leading" secondItem="pVN-vR-dfY" secondAttribute="leading" constant="17" id="9DR-cG-uko"/>
+                                            <constraint firstItem="ivH-SY-Kcz" firstAttribute="top" secondItem="2YZ-hw-CCz" secondAttribute="bottom" constant="59" id="Hzq-dv-X9A"/>
+                                            <constraint firstItem="pVN-vR-dfY" firstAttribute="trailing" secondItem="v66-Kf-PO9" secondAttribute="trailing" constant="14" id="OwP-VV-hCM"/>
+                                            <constraint firstAttribute="bottom" secondItem="ivH-SY-Kcz" secondAttribute="bottom" constant="394" id="Qr0-ZM-bP9"/>
+                                            <constraint firstItem="v66-Kf-PO9" firstAttribute="top" secondItem="ivH-SY-Kcz" secondAttribute="bottom" constant="14" id="S9w-D0-NFv"/>
+                                            <constraint firstItem="2YZ-hw-CCz" firstAttribute="leading" secondItem="pVN-vR-dfY" secondAttribute="leading" constant="16" id="TaX-6l-z3J"/>
+                                            <constraint firstItem="pVN-vR-dfY" firstAttribute="trailing" secondItem="ivH-SY-Kcz" secondAttribute="trailing" multiplier="0.3" constant="296" id="XLw-VM-H6X"/>
+                                            <constraint firstItem="DUV-lZ-pe6" firstAttribute="leading" secondItem="pVN-vR-dfY" secondAttribute="leading" constant="103" id="iEC-eT-Feg"/>
+                                            <constraint firstItem="DUV-lZ-pe6" firstAttribute="top" secondItem="pVN-vR-dfY" secondAttribute="top" constant="35" id="pMw-dO-OgD"/>
+                                            <constraint firstItem="pVN-vR-dfY" firstAttribute="trailing" secondItem="DUV-lZ-pe6" secondAttribute="trailing" multiplier="0.9" constant="103" id="spA-P9-vEs"/>
+                                            <constraint firstItem="ivH-SY-Kcz" firstAttribute="leading" secondItem="pVN-vR-dfY" secondAttribute="leading" constant="16" id="vP8-uu-Iud"/>
+                                            <constraint firstItem="2YZ-hw-CCz" firstAttribute="top" secondItem="DUV-lZ-pe6" secondAttribute="bottom" constant="65.5" id="wzT-Sc-tLt"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="pVN-vR-dfY"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <viewLayoutGuide key="safeArea" id="NiC-zC-adP"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="uwx-u9-Mdd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bqI-Ko-uKB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3042" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="agg-di-LGd">
+            <objects>
+                <viewController id="qOZ-Di-ucV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LlW-Dh-yGJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="Qzf-l5-P0T">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="3UK-Ia-bDc">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="জাদুঘর" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2d3-68-vul">
+                                                <rect key="frame" x="103" y="79" width="208" height="58"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="41"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="p-1" translatesAutoresizingMaskIntoConstraints="NO" id="Tw0-H4-Ag4">
+                                                <rect key="frame" x="16" y="202.5" width="384" height="197.5"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="বঙ্গবন্ধু জাদুঘর :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFv-GH-MqW">
+                                                <rect key="frame" x="16" y="459" width="220" height="43"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="43" id="WeQ-sM-nph"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0b-2j-2nu">
+                                                <rect key="frame" x="17" y="516" width="383" height="339"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <mutableString key="text">জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান স্মৃতি জাদুঘর বা সংক্ষেপে বঙ্গবন্ধু স্মৃতি জাদুঘর ঢাকা শহরের কেন্দ্রস্থলে অবস্থিত একটি বিশেষ জাদুঘর যা বাঙ্গালী জাতির অন্যতম নেতা বঙ্গবন্ধু শেখ মুজিবুর রহমনের স্মৃতি সংরক্ষণার্থে স্থাপন করা হয়েছে।[১] ঢাকার ধানমণ্ডি আবাসিক এলাকায় ৩২ রোডের বাড়ীতে শেখ মুজিব স্বাধীনতাপূর্ব কাল থেকেই বসবাস করতেন।
+
+তিনি যখন বাংলাদেশের রাষ্ট্রপতি তখন এই ভবনেই ১৫ই আগস্ট ১৯৭৫ সামরিক বাহিনীর একদল সশস্ত্র সদস্যের আক্রমণে সপরিবারে নিহত হন। এই নৃশংস হত্যাকাণ্ডের পর বাড়িটি জিয়া সরকার কর্তৃক সিলগালা করে দেওয়া হয়। ১৯৮১ সালে বাড়িটি বর্তমান প্রধানমন্ত্রী শেখ হাসিনার পরিবারের নিকট হস্তান্তর করা হয়।
+
+পরে বঙ্গবন্ধুর দুই জীবিত উত্তরাধিকারী শেখ হাসিনা ও শেখ রেহানা ১৯৯৪ সালের ১১ই এপ্রিল জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান মেমোরিয়াল ট্রাস্ট গঠন করে এই বাড়িটি ট্রাস্টের হাতে অর্পণ করেন। ১৯৯৪ সালের ১৪ই আগস্ট বঙ্গবন্ধু ও তার পরিবারের স্মৃতি বিজড়িত কিছু সামগ্রীর সংগ্রহ নিয়ে এ বাড়িতেই "জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান স্মৃতি জাদুঘর" নামে একটি জাদুঘর স্থাপন করা হয়।</mutableString>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <dataDetectorType key="dataDetectorTypes" shipmentTrackingNumber="YES"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="bS4-IZ-02V" firstAttribute="trailing" secondItem="JFv-GH-MqW" secondAttribute="trailing" multiplier="0.5" constant="296" id="0qI-w4-WLH"/>
+                                            <constraint firstItem="JFv-GH-MqW" firstAttribute="leading" secondItem="bS4-IZ-02V" secondAttribute="leading" constant="16" id="2M2-QI-qFa"/>
+                                            <constraint firstItem="bS4-IZ-02V" firstAttribute="bottom" secondItem="a0b-2j-2nu" secondAttribute="bottom" constant="7" id="4Nq-ra-pIG"/>
+                                            <constraint firstItem="Tw0-H4-Ag4" firstAttribute="leading" secondItem="bS4-IZ-02V" secondAttribute="leading" constant="16" id="7RN-mH-6Wk"/>
+                                            <constraint firstItem="JFv-GH-MqW" firstAttribute="top" secondItem="Tw0-H4-Ag4" secondAttribute="bottom" constant="59" id="BTQ-xX-sQh"/>
+                                            <constraint firstItem="bS4-IZ-02V" firstAttribute="trailing" secondItem="a0b-2j-2nu" secondAttribute="trailing" constant="14" id="R1T-PE-wnr"/>
+                                            <constraint firstItem="2d3-68-vul" firstAttribute="top" secondItem="bS4-IZ-02V" secondAttribute="top" constant="35" id="XMm-qp-Tnx"/>
+                                            <constraint firstItem="bS4-IZ-02V" firstAttribute="trailing" secondItem="Tw0-H4-Ag4" secondAttribute="trailing" constant="14" id="Yhy-qu-fdk"/>
+                                            <constraint firstItem="Tw0-H4-Ag4" firstAttribute="top" secondItem="2d3-68-vul" secondAttribute="bottom" constant="65.5" id="d23-q7-sax"/>
+                                            <constraint firstItem="bS4-IZ-02V" firstAttribute="trailing" secondItem="2d3-68-vul" secondAttribute="trailing" constant="103" id="dGe-bu-zBm"/>
+                                            <constraint firstAttribute="bottom" secondItem="JFv-GH-MqW" secondAttribute="bottom" constant="394" id="fCW-1c-Lp3"/>
+                                            <constraint firstItem="2d3-68-vul" firstAttribute="leading" secondItem="bS4-IZ-02V" secondAttribute="leading" constant="103" id="p0s-ez-Npw"/>
+                                            <constraint firstItem="a0b-2j-2nu" firstAttribute="leading" secondItem="bS4-IZ-02V" secondAttribute="leading" constant="17" id="pLG-eX-Qvr"/>
+                                            <constraint firstItem="a0b-2j-2nu" firstAttribute="top" secondItem="JFv-GH-MqW" secondAttribute="bottom" constant="14" id="xFZ-sY-2LZ"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="bS4-IZ-02V"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <viewLayoutGuide key="safeArea" id="1cQ-QT-Onu"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="AyL-zS-cAU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fwZ-Om-Gwx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3717" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k0j-TQ-Eyg">
+            <objects>
+                <viewController id="a12-Sm-Wtw" customClass="ViewController" customModule="iOS_Bongobondu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0UR-fP-Rbe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="tjP-zD-CGH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhT-Wb-UPE">
+                                        <rect key="frame" x="103" y="79" width="208" height="48.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="আত্মজীবনী">
+                                                <attributes>
+                                                    <font key="NSFont" size="42" name="Helvetica-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbe-MT-MzL">
+                                        <rect key="frame" x="24" y="173" width="849" height="551"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="XtG-4G-0iS">
+                                                <rect key="frame" x="-33" y="0.0" width="849" height="551"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="XtG-4G-0iS" firstAttribute="leading" secondItem="hbe-MT-MzL" secondAttribute="leading" constant="-33" id="AQ1-Wc-qGY"/>
+                                            <constraint firstItem="XtG-4G-0iS" firstAttribute="height" secondItem="hbe-MT-MzL" secondAttribute="height" id="LU8-9q-SJL"/>
+                                            <constraint firstItem="XtG-4G-0iS" firstAttribute="width" secondItem="hbe-MT-MzL" secondAttribute="width" id="QIq-av-EPQ"/>
+                                            <constraint firstItem="XtG-4G-0iS" firstAttribute="centerY" secondItem="hbe-MT-MzL" secondAttribute="centerY" id="cgD-M9-m8e"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ভুমিকা :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39w-Df-8zf">
+                                        <rect key="frame" x="16" y="767" width="102" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="43" id="bD7-jJ-GHy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63d-Xl-bRS">
+                                        <rect key="frame" x="17" y="824" width="383" height="31"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <string key="text">১৯২০, ১৭ মার্চ, গোপালগঞ্জ জেলার টুঙ্গীপাড়া গ্রামে জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান জন্মগ্রহণ করেন।
+১৯২৭: সাত বছর বয়সে গিমাডাঙ্গা প্রাথমিক বিদ্যালয়ে জাতিরজনকের প্রাতিষ্ঠানিক ছাত্রজীবনের সূচনা হয়।
+১৯২৯: বঙ্গবন্ধুকে গোপালগঞ্জ সীতানাথ একাডেমীর (বা পাবলিক স্কুলে) তৃতীয় শ্রেনীতে ভর্তি করা হয়।
+১৯৩৪: মাদারীপুরে ইসলামিয়া হাইস্কুলে পড়ার সময় বঙ্গবন্ধু বেরীবেরি রোগে আক্রান্ত হন।
+১৯৩৭: অসুস্থতার কারণে বঙ্গবন্ধুর লেখাপড়া বন্ধ ছিলো, আবার তা শুরু হয়।
+১৯৩৮: ১৬ জানুয়ারী: বাংলার প্রধামন্ত্রী শেরে বাংলা একে ফজলুল হক গোপালগঞ্জ মিশন স্কুল পরিদর্শনে এলে বঙ্গবন্ধুর সঙ্গে তার পরিচয় হয়।
+১৯৩৯: সরকারী নিষেধাজ্ঞা উপেক্ষা করে স্কুল কর্তৃপক্ষের বিরুদ্ধে একটি প্রতিবাদ সভা করার দু:সাহসের কারণে বঙ্গবন্ধু প্রথম কারাবরণ করেন।
+১৯৩৮: মাত্র ১৮ বছর বয়সে তিনি বেগম ফজিলাতুননেসার সঙ্গে বিবাহ বন্ধনে আবদ্ধ হন।
+১৯৪২: অসুস্থতার কারণে একটু বেশীবছর বয়সে বঙ্গবন্ধু এন্ট্রাস (প্রবেশিকা) পরীক্ষায় উত্তীর্ণ হন। এই বছরেই কলকাতা ইসলামিয়া কলেজে ভর্তি হন। এই কলেজের বেকার হোষ্টেলের ২৪নম্বর কক্ষে তিনি থাকতে শুরু করেন।</string>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" shipmentTrackingNumber="YES"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="39w-Df-8zf" firstAttribute="top" secondItem="hbe-MT-MzL" secondAttribute="bottom" constant="43" id="47F-m8-A4H"/>
+                                    <constraint firstItem="63d-Xl-bRS" firstAttribute="leading" secondItem="7kL-Ap-w7p" secondAttribute="leading" constant="17" id="874-NX-Hih"/>
+                                    <constraint firstItem="hbe-MT-MzL" firstAttribute="leading" secondItem="7kL-Ap-w7p" secondAttribute="leading" constant="24" id="BWY-f9-aYL"/>
+                                    <constraint firstItem="hbe-MT-MzL" firstAttribute="top" secondItem="tjP-zD-CGH" secondAttribute="top" constant="173" id="Dxe-s6-Zpu"/>
+                                    <constraint firstItem="hbe-MT-MzL" firstAttribute="top" secondItem="EhT-Wb-UPE" secondAttribute="bottom" constant="45.5" id="JHA-Cu-uaU"/>
+                                    <constraint firstItem="39w-Df-8zf" firstAttribute="leading" secondItem="7kL-Ap-w7p" secondAttribute="leading" constant="16" id="PAj-FG-Rcq"/>
+                                    <constraint firstItem="7kL-Ap-w7p" firstAttribute="trailing" secondItem="63d-Xl-bRS" secondAttribute="trailing" constant="14" id="U5U-Cv-iaF"/>
+                                    <constraint firstItem="63d-Xl-bRS" firstAttribute="top" secondItem="39w-Df-8zf" secondAttribute="bottom" constant="14" id="YhO-nj-EXq"/>
+                                    <constraint firstItem="7kL-Ap-w7p" firstAttribute="trailing" secondItem="39w-Df-8zf" secondAttribute="trailing" constant="296" id="ZGG-9p-YCm"/>
+                                    <constraint firstItem="7kL-Ap-w7p" firstAttribute="bottom" secondItem="63d-Xl-bRS" secondAttribute="bottom" constant="7" id="c9u-Jc-fpW"/>
+                                    <constraint firstItem="EhT-Wb-UPE" firstAttribute="centerX" secondItem="tjP-zD-CGH" secondAttribute="centerX" id="h5J-Us-hqI"/>
+                                    <constraint firstItem="EhT-Wb-UPE" firstAttribute="leading" secondItem="7kL-Ap-w7p" secondAttribute="leading" constant="103" id="rdf-RY-RKP"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="7kL-Ap-w7p"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Mff-bF-82s"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nzc-59-AcV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="424.5" height="275.5"/>
+        <image name="download-1" width="128" height="78.5"/>
+        <image name="gettyimages-1" width="128" height="78.5"/>
+        <image name="p-1" width="128" height="78.5"/>
+    </resources>
+</document>
