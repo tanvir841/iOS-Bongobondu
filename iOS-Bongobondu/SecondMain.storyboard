@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -40,7 +41,7 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dT8-US-Zp5">
                                         <rect key="frame" x="17" y="516" width="383" height="339"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">১৯৭২ সালের জানুয়ারি, ঢাকা। ভারত সরকার কর্তৃক প্রকাশিত বাংলাদেশ ডকুমেন্টস-এ বঙ্গবন্ধু শেখ মুজিবুর রহমানের সঙ্গে ব্রিটিশ সাংবাদিক ডেভিড ফ্রস্টের টেলিভিশন সাক্ষাৎকারের অনুলিখন সন্নিবেশিত হয়। পাকিস্তান থেকে মুক্তি পেয়ে বঙ্গবন্ধুর স্বদেশ প্রত্যাবর্তনের পর ঢাকায় এই সাক্ষাৎকার গৃহীত হয়। ১৯৭২ সালের ১৮ জানুয়ারি নিউইয়র্ক টেলিভিশনের ডেভিড ফ্রস্ট প্রোগ্রাম ইন্ বাংলাদেশ শীর্ষক অনুষ্ঠানে সাক্ষাৎকারটি প্রদর্শিত হয়।</mutableString>
+                                        <string key="text">১৯৭২ সালের জানুয়ারি, ঢাকা। ভারত সরকার কর্তৃক প্রকাশিত বাংলাদেশ ডকুমেন্টস-এ বঙ্গবন্ধু শেখ মুজিবুর রহমানের সঙ্গে ব্রিটিশ সাংবাদিক ডেভিড ফ্রস্টের টেলিভিশন সাক্ষাৎকারের অনুলিখন সন্নিবেশিত হয়। পাকিস্তান থেকে মুক্তি পেয়ে বঙ্গবন্ধুর স্বদেশ প্রত্যাবর্তনের পর ঢাকায় এই সাক্ষাৎকার গৃহীত হয়। ১৯৭২ সালের ১৮ জানুয়ারি নিউইয়র্ক টেলিভিশনের ডেভিড ফ্রস্ট প্রোগ্রাম ইন্ বাংলাদেশ শীর্ষক অনুষ্ঠানে সাক্ষাৎকারটি প্রদর্শিত হয়।</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -74,6 +75,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGS-lD-twO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1719" y="139"/>
+        </scene>
+        <!--Collection View Controller-->
+        <scene sceneID="p39-re-hAX">
+            <objects>
+                <collectionViewController id="scm-hg-ciI" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="jLV-Zw-psz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oEB-tP-peK">
+                            <size key="itemSize" width="178" height="278"/>
+                            <size key="estimatedItemSize" width="178" height="278"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="galleryCell" id="iJh-20-KdI">
+                                <rect key="frame" x="0.0" y="0.0" width="178" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="o1o-H5-Pyk">
+                                    <rect key="frame" x="0.0" y="0.0" width="178" height="278"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                                <size key="customSize" width="178" height="278"/>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="scm-hg-ciI" id="dDe-0O-ePT"/>
+                            <outlet property="delegate" destination="scm-hg-ciI" id="CQ1-DB-Fsl"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8nq-mr-tY9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1202.8985507246377" y="796.20535714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bPo-p5-Om5">
@@ -143,9 +180,9 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gHI-Y9-tCe">
                                         <rect key="frame" x="17" y="516" width="383" height="339"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">রাজনীতিতে সমর্পিত বঙ্গবন্ধু শেখ মুজিবুর রহমানের জীবনের বড় সময় কেটেছে জেলখানায়। সেখানে থাকতে তিনি যেমন রাজনৈতিক সহযোদ্ধা, নেতা-কর্মী ও স্বজনদের কাছ থেকে বহু চিঠি পেয়েছেন, তেমনি তিনিও তাঁদের লিখেছেন। 
+                                        <string key="text">রাজনীতিতে সমর্পিত বঙ্গবন্ধু শেখ মুজিবুর রহমানের জীবনের বড় সময় কেটেছে জেলখানায়। সেখানে থাকতে তিনি যেমন রাজনৈতিক সহযোদ্ধা, নেতা-কর্মী ও স্বজনদের কাছ থেকে বহু চিঠি পেয়েছেন, তেমনি তিনিও তাঁদের লিখেছেন। 
 
-কারাগারের বাইরে থাকতে রাজনীতির সুবাদেই তিনি বিভিন্ন শ্রেণি ও পেশার মানুষের সঙ্গে মিশেছেন, অনেকে তাঁর সান্নিধ্যে এসেছেন। তাঁদের কারও কারও সঙ্গে তাঁর পত্র যোগাযোগ হতো। কারাগারে থাকতে বেশির ভাগ চিঠি পেতেন দলীয় নেতা-কর্মীদের কাছ থেকে।</mutableString>
+কারাগারের বাইরে থাকতে রাজনীতির সুবাদেই তিনি বিভিন্ন শ্রেণি ও পেশার মানুষের সঙ্গে মিশেছেন, অনেকে তাঁর সান্নিধ্যে এসেছেন। তাঁদের কারও কারও সঙ্গে তাঁর পত্র যোগাযোগ হতো। কারাগারে থাকতে বেশির ভাগ চিঠি পেতেন দলীয় নেতা-কর্মীদের কাছ থেকে।</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -295,11 +332,11 @@
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0b-2j-2nu">
                                                 <rect key="frame" x="17" y="516" width="383" height="339"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <mutableString key="text">জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান স্মৃতি জাদুঘর বা সংক্ষেপে বঙ্গবন্ধু স্মৃতি জাদুঘর ঢাকা শহরের কেন্দ্রস্থলে অবস্থিত একটি বিশেষ জাদুঘর যা বাঙ্গালী জাতির অন্যতম নেতা বঙ্গবন্ধু শেখ মুজিবুর রহমনের স্মৃতি সংরক্ষণার্থে স্থাপন করা হয়েছে।[১] ঢাকার ধানমণ্ডি আবাসিক এলাকায় ৩২ রোডের বাড়ীতে শেখ মুজিব স্বাধীনতাপূর্ব কাল থেকেই বসবাস করতেন।
+                                                <string key="text">জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান স্মৃতি জাদুঘর বা সংক্ষেপে বঙ্গবন্ধু স্মৃতি জাদুঘর ঢাকা শহরের কেন্দ্রস্থলে অবস্থিত একটি বিশেষ জাদুঘর যা বাঙ্গালী জাতির অন্যতম নেতা বঙ্গবন্ধু শেখ মুজিবুর রহমনের স্মৃতি সংরক্ষণার্থে স্থাপন করা হয়েছে।[১] ঢাকার ধানমণ্ডি আবাসিক এলাকায় ৩২ রোডের বাড়ীতে শেখ মুজিব স্বাধীনতাপূর্ব কাল থেকেই বসবাস করতেন।
 
 তিনি যখন বাংলাদেশের রাষ্ট্রপতি তখন এই ভবনেই ১৫ই আগস্ট ১৯৭৫ সামরিক বাহিনীর একদল সশস্ত্র সদস্যের আক্রমণে সপরিবারে নিহত হন। এই নৃশংস হত্যাকাণ্ডের পর বাড়িটি জিয়া সরকার কর্তৃক সিলগালা করে দেওয়া হয়। ১৯৮১ সালে বাড়িটি বর্তমান প্রধানমন্ত্রী শেখ হাসিনার পরিবারের নিকট হস্তান্তর করা হয়।
 
-পরে বঙ্গবন্ধুর দুই জীবিত উত্তরাধিকারী শেখ হাসিনা ও শেখ রেহানা ১৯৯৪ সালের ১১ই এপ্রিল জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান মেমোরিয়াল ট্রাস্ট গঠন করে এই বাড়িটি ট্রাস্টের হাতে অর্পণ করেন। ১৯৯৪ সালের ১৪ই আগস্ট বঙ্গবন্ধু ও তার পরিবারের স্মৃতি বিজড়িত কিছু সামগ্রীর সংগ্রহ নিয়ে এ বাড়িতেই "জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান স্মৃতি জাদুঘর" নামে একটি জাদুঘর স্থাপন করা হয়।</mutableString>
+পরে বঙ্গবন্ধুর দুই জীবিত উত্তরাধিকারী শেখ হাসিনা ও শেখ রেহানা ১৯৯৪ সালের ১১ই এপ্রিল জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান মেমোরিয়াল ট্রাস্ট গঠন করে এই বাড়িটি ট্রাস্টের হাতে অর্পণ করেন। ১৯৯৪ সালের ১৪ই আগস্ট বঙ্গবন্ধু ও তার পরিবারের স্মৃতি বিজড়িত কিছু সামগ্রীর সংগ্রহ নিয়ে এ বাড়িতেই "জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান স্মৃতি জাদুঘর" নামে একটি জাদুঘর স্থাপন করা হয়।</string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
